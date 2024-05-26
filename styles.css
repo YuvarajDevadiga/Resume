@@ -1,0 +1,106 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 2px solid #eee;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    flex-grow: 1;
+}
+
+.left, .right {
+    width: 48%;
+    padding: 0 10px;
+}
+
+.vertical-line {
+    width: 2px;
+    background-color: #eee;
+    margin: 0 10px;
+}
+
+.section {
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+
+.section h2 {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.section p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.skills, .education, .work-experience, .certifications, .extracurricular, .hobbies {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.skills li, .education li, .work-experience li, .certifications li, .extracurricular li, .hobbies li {
+    margin: 5px 0;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+@media print {
+    body {
+        width: 21cm;
+        height: 29.7cm;
+    }
+}
