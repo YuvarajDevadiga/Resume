@@ -44,4 +44,4 @@ The CSS file styles the resume to ensure it is visually appealing and well-organ
 To view or print the resume:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/resume-project.git
+ https://github.com/YuvarajDevadiga/Resume.git
